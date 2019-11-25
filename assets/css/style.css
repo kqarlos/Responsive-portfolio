@@ -1,0 +1,26 @@
+.navbar {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+#name {
+    position: absolute;
+    left: 0;
+    color: white;
+    background-color: teal;
+    height: 100%;
+    padding: 10px 20px 0 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#navbarNav {
+    transform: translateX(77%);
+}
+
+.navbar-nav li:not(:last-child){
+  border-right: 1px solid #000;
+}
+
+
