@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
   <!-- Required meta tags -->
@@ -19,7 +19,7 @@
   <title>Contact</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
   <!-- nav bar -->
 
@@ -50,70 +50,77 @@
 
   <div class="box">
 
-  <!-- start grid -->
+    <!-- start grid -->
 
-  <div class="container">
-    <!-- first row / title -->
-    <div class="row">
-      <div class="col-sm">
-        Contact
+    <div class="container" id="content">
+      <!-- first row / title -->
+      <div class="row">
+        <div class="col-sm">
+          Contact
+        </div>
       </div>
+
+      <!-- second-seven row / form-->
+      <form class="paragraph" action="#">
+
+        <div class="row">
+          <div class="col-sm">
+            Name
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <input class="textBox" type="text" name="Name" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            Email
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <input class="textBox" type="text" name="Email" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            Message
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <input class="textBox" id="mTextBox" type="text" name="Message" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <input class="submitButton" type="submit" value="Submit">
+          </div>
+        </div>
+
+      </form>
+
+      <!-- end content -->
+
     </div>
 
-    <!-- second-seven row / form-->
-    <form class="paragraph" action="#">
-
-      <div class="row">
-        <div class="col-sm">
-          Name
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          <input class="textBox" type="text" name="Name" value="">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          Email
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          <input class="textBox" type="text" name="Email" value="">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          Message
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          <input class="textBox" id="mTextBox" type="text" name="Message" value="">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm">
-          <input class="submitButton" type="submit" value="Submit">
-        </div>
-      </div>
-      
-    </form>
-
-    <!-- end content -->
+    <!-- end grid -->
 
   </div>
 
-  <!-- end grid -->
-
-  </div>
+  <!-- start footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Copyright ©</span>
+    </div>
+  </footer>
 
 
 

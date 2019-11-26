@@ -23,7 +23,7 @@
   border-right: 1px solid #000;
 }
 
-.container {
+#content {
     width: 62.5%;
     margin: 0 auto;
     background:white;
@@ -31,6 +31,14 @@
 
 .box {
     background-image: url("../images/beanstalk.png");
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-color: #666666;
+    font-size: small;
+
 }
 
 
