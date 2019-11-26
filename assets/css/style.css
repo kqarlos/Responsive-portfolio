@@ -3,15 +3,6 @@
     margin: 0 auto;
 }
 
-#name {
-    position: absolute;
-    left: 0;
-    color: white;
-    background-color: teal;
-    height: 100%;
-    padding: 10px 20px 0 20px;
-}
-
 #navbarNav {
     transform: translateX(77%);
 }
@@ -45,7 +36,6 @@
 .headingText {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: x-large;
-
 }
 
 .footer {
