@@ -3,8 +3,8 @@
     margin: 0 auto;
 }
 
-#navbarNav {
-    transform: translateX(77%);
+#name {
+    height: 100%;
 }
 
 .navbar-nav li:not(:last-child){
