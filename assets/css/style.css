@@ -10,9 +10,6 @@
     background-color: teal;
     height: 100%;
     padding: 10px 20px 0 20px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
 }
 
 #navbarNav {
@@ -31,6 +28,24 @@
 
 .box {
     background-image: url("../images/beanstalk.png");
+}
+
+#headshot {
+    width: 25%;
+    margin: 5px 15px 10px 0px;
+} 
+
+.contentText {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 32px;
+
+}
+
+.headingText {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: x-large;
+
 }
 
 .footer {
