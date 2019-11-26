@@ -14,7 +14,7 @@
 #content {
     width: 62.5%;
     margin: 0 auto;
-    background:white;
+    min-height: calc(110vh - 270px);
 }
 
 .box {
