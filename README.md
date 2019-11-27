@@ -33,7 +33,7 @@ Portfolio in large screen
 ![Site](assets/images/portfolio-lg.png)
 
 Portfolio in medium screen
-* Project cards collapse into a row of two followed by a row of one, back to a rwo of two and so forth.
+* Project cards collapse into a row of two followed by a row of one, back to a row of two and so forth.
 
 ![Site](assets/images/portfolio-md.png)
 
@@ -54,7 +54,7 @@ Navigation Bar code
 
 ![Site](assets/images/nav-bar-snippet.png)
 
-* This shows the code used to create the navigation bar using a Bootstrap Navbar. Here we can see how adding different classes to objects will affect everything from their color to their positioning. In addition, to formatting the objects through Bootstrap's styling, I can also add my own css styling as is shown. For example, &lt;ul class="navbar-nav ml-auto contentText"&gt uses Bootstrap styling like "ml-auto" which adjust the list to the rigth. It also uses my own styling "contentText" which tells it the font type and spacing between lines for the text in the list.
+* This shows the code used to create the navigation bar using a Bootstrap Navbar. Here we can see how adding different classes to objects will affect everything from their color to their positioning. In addition, to formatting the objects through Bootstrap's styling, I can also add my own css styling as is shown. For example, &lt;ul class="navbar-nav ml-auto contentText"&gt; uses Bootstrap styling like "ml-auto" which adjust the list to the rigth. It also uses my own styling "contentText" which tells it the font type and spacing between lines for the text in the list.
 
 ## Built With
 
