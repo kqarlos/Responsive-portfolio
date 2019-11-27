@@ -18,8 +18,8 @@ About Me in medium screen :
 ![Site](assets/images/index-md.png)
 
 About Me in small screen
-* Width takes a higher percentage.
-* Images takes full width of container
+* Content width takes a higher percentage.
+* Headshot image takes full width of container
 
 ![Site](assets/images/index-sm.png)
 
@@ -28,25 +28,33 @@ Contact page
 ![Site](assets/images/contact-lg.png)
 
 Portfolio in large screen
-* Project cards in 2x3 table
+* Project cards in 2x3 table.
 
 ![Site](assets/images/portfolio-lg.png)
 
 Portfolio in medium screen
-* Project cards collapse into a row of two followed by a row of one and back to a rwo of two.
+* Project cards collapse into a row of two followed by a row of one, back to a rwo of two and so forth.
 
 ![Site](assets/images/portfolio-md.png)
 
 Portfolio in small screen
-* Project cards stack
+* Project cards stack in single cards.
 
 ![Site](assets/images/portfolio-sm.png)
 
 ## Code Snippets
 
+Portfolio Row code
+
 ![Site](assets/images/portfolio-row-snippet.png)
 
-This code snippet had an example of a row from the Bootstrap grid system used in the Portfolio page. The column &lt;div class="col-12 col-lg-6 col-xl-4 my-2"&gt; includes the Bootstrap styling necessary to make the project cards responsive to three different browser dimensions. Each project card takes 4 columns at xl size, then 6 columns at lg size and all 12 columns at smaller sizes.
+* This code snippet had an example of a row from the Bootstrap grid system used in the Portfolio page. The column &lt;div class="col-12 col-lg-6 col-xl-4 my-2"&gt; includes the Bootstrap styling necessary to make the project cards responsive to three different browser dimensions. Each project card takes 4 columns at xl size, then 6 columns at lg size and all 12 columns at smaller sizes.
+
+Navigation Bar code 
+
+![Site](assets/images/nav-bar-snippet.png)
+
+* This shows the code used to create the navigation bar using a Bootstrap Navbar. Here we can see how adding different classes to objects will affect everything from their color to their positioning. In addition, to formatting the objects through Bootstrap's styling, I can also add my own css styling as is shown. For example, &lt;ul class="navbar-nav ml-auto contentText"&gt uses Bootstrap styling like "ml-auto" which adjust the list to the rigth. It also uses my own styling "contentText" which tells it the font type and spacing between lines for the text in the list.
 
 ## Built With
 
@@ -57,7 +65,6 @@ This code snippet had an example of a row from the Bootstrap grid system used in
 ## Deployed Link
 
 * [See Live Site](https://kqarlos.github.io/Responsive-portfolio/index.html)
-
 
 ## Authors
 
@@ -71,4 +78,4 @@ This code snippet had an example of a row from the Bootstrap grid system used in
 ## Acknowledgments
 
 * [W3 Schools](https://www.w3schools.com/)
-* [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+* [Bootstrap components](https://getbootstrap.com/docs/4.4/components/navbar/)
