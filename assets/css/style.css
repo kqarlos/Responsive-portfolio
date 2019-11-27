@@ -18,7 +18,7 @@
 }
 
 #headshot {
-    width: 25%;
+    width: 300px;
     margin: 5px 15px 10px 0px;
 } 
 
@@ -56,3 +56,14 @@ a.btn {
 }
 
 
+@media screen and (max-width: 576px) {
+    
+    .navbar, #content {
+        width: 80%;
+    }
+    #headshot {
+        width: 100%;
+        margin: 0 auto;
+    }  
+
+}
