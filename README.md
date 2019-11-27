@@ -4,15 +4,49 @@ This website contain professional information about me and show some of the proj
 
 ## Getting Started
 
-This document contains information on the code writen for the Responsive-Portfolio website. It has explained snippets of code for reference. It also includes a link to the live site and the repository on Github and references.
+This document contains information on the code writen for the Responsive-Portfolio website. It has explained snippets of code for reference. It also includes links to the live site, the repository on Github and references.
 
 ## Site Picture
 
-Coming soon...
+About Me in large screen
+
+![Site](assets/images/index-lg.png)
+
+About Me in medium screen : 
+* Navigation bar collapses
+
+![Site](assets/images/index-md.png)
+
+About Me in small screen
+* Width takes a higher percentage.
+* Images takes full width of container
+
+![Site](assets/images/index-sm.png)
+
+Contact page
+
+![Site](assets/images/contact-lg.png)
+
+Portfolio in large screen
+* Project cards in 2x3 table
+
+![Site](assets/images/portfolio-lg.png)
+
+Portfolio in medium screen
+* Project cards collapse into a row of two followed by a row of one and back to a rwo of two.
+
+![Site](assets/images/portfolio-md.png)
+
+Portfolio in small screen
+* Project cards stack
+
+![Site](assets/images/portfolio-sm.png)
 
 ## Code Snippets
 
-Coming soon...
+![Site](assets/images/portfolio-row-snippet.png)
+
+This code snippet had an example of a row from the Bootstrap grid system used in the Portfolio page. The column &lt;div class="col-12 col-lg-6 col-xl-4 my-2"&gt; includes the Bootstrap styling necessary to make the project cards responsive to three different browser dimensions. Each project card takes 4 columns at xl size, then 6 columns at lg size and all 12 columns at smaller sizes.
 
 ## Built With
 
