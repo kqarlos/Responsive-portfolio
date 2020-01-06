@@ -1,6 +1,9 @@
 .navbar {
-    width: 62.5%;
-    margin: 0 auto;
+    /* width: 62.5%; */
+    /* padding-left: 62.5%; */
+    /* padding-left: 62.5%; */
+    /* margin: 0 auto; */
+    padding: 0 18.75%;
 }
 
 .content {
@@ -9,9 +12,18 @@
     /* min-height: calc(110vh - 265px); */
 }
 
+#contact, #portfolio {
+    padding-top: 80px;    
+}
+
+
 .box {
     background-image: url("../images/beanstalk.png");
     min-height: calc(100vh - 56px);
+}
+
+#portfolio {
+    min-height: 100vh;
 
 }
 
