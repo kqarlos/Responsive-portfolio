@@ -8,12 +8,15 @@
 
   <!-- CSS -->
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <!-- Bootstrap CSS  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Font Awesome CSS Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <!-- My stylesheets -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
   <title>About Me</title>
 </head>
@@ -31,13 +34,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav ml-auto contentText">
         <li class="nav-item active border-right">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item border-right">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -45,11 +48,12 @@
 
   <!-- end nav-bar -->
 
-  <div class="py-5 border-top box">
+  <!---------------------------- start box 1 ---------------------->
+  <div class="py-5 border-top box" id="about">
 
-    <!-- start grid -->
 
-    <div class="container p-4 bg-white border" id="content">
+    <!-- start grid 1-->
+    <div class="container p-4 bg-white border content">
 
       <!-- first row / title -->
       <div class="row mb-3">
@@ -84,9 +88,166 @@
       <!-- end content -->
 
     </div>
+    <!-- end grid 1-->
+  </div>
+
+  <!-- end box 1 -->
+
+  <!-------------------- start box 2 -------------------------->
+
+  <div class="py-5 border-top box" id="portfolio">
+
+
+    <!-- start grid 2-->
+
+    <div class="container p-4 bg-white border content">
+
+      <!-- first row / title -->
+      <div class="row mb-3">
+        <div class="col-12">
+          <p class="font-weight-bold text-info border-bottom pb-3 headingText">Portfolio</p>
+        </div>
+      </div>
+
+      <!-- second row / content -->
+      <div class="row">
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/code-quiz.png" class="card-img" alt="Code Quiz">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/code-quiz/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">Code Quiz</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/password-generator.png" class="card-img" alt="Password Generator">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/password-generator/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">Password Generator</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/day-planner.png" class="card-img" alt="Day Planner">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/day-planner/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">Day Planner</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- third row -->
+      <div class="row">
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/weather-dashboard.png" class="card-img" alt="Weather Dashboard">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/weather-dashboard/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">Weather Dashboard</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/dinner-party.png" class="card-img" alt="Dinner Party">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/dinner-party/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">Dinner Party</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-4 my-2">
+
+          <div class="card">
+            <img src="assets/images/ny-times.png" class="card-img" alt="NY Times">
+            <div class="card-img-overlay">
+              <a href="https://kqarlos.github.io/ny-times/" target="_blank"
+                class="btn text-white bg-info position-absolute contentText">NY Times</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- end content -->
+
+    </div>
+
+    <!-- end grid 2-->
+
+  </div>
+
+  <!-- end box 2 -->
+
+  <!------------------------- start box 3 ---------------->
+
+  <div class="py-5 border-top box" id="contact">
+
+    <!-- start grid -->
+
+    <div class="container p-4 bg-white border content">
+
+      <!-- first row / title -->
+      <div class="row mb-3">
+        <div class="col-12">
+          <p class="font-weight-bold text-info border-bottom pb-3 headingText">Contact</p>
+        </div>
+      </div>
+
+      <!-- second-seven row / form-->
+      <form class="contentText text-secondary">
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label for="name1">Name</label>
+            <textarea class="form-control" id="name1" rows="1"></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label for="email1">Email</label>
+            <textarea class="form-control" id="email1" rows="1"></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label for="message1">Message</label>
+            <textarea class="form-control" id="message1" rows="7"></textarea>
+
+          </div>
+        </div>
+        <button type="submit" class="btn text-white bg-info">Sign in</button>
+      </form>
+
+      <!-- end content -->
+
+    </div>
+
     <!-- end grid -->
 
   </div>
+
+  <!-- end box 3 -->
 
   <!-- start footer -->
 
@@ -98,17 +259,17 @@
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <!-- jQuery JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <!-- Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <!-- My JavaScript -->
+  <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>

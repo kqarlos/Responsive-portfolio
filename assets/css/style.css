@@ -3,14 +3,16 @@
     margin: 0 auto;
 }
 
-#content {
+.content {
     width: 62.5%;
     margin: 0 auto;
-    min-height: calc(110vh - 265px);
+    /* min-height: calc(110vh - 265px); */
 }
 
 .box {
     background-image: url("../images/beanstalk.png");
+    min-height: calc(100vh - 56px);
+
 }
 
 #headshot {
@@ -53,7 +55,7 @@ a.btn {
 
 @media screen and (max-width: 576px) {
     
-    .navbar, #content {
+    .navbar, .content {
         width: 80%;
     }
     #headshot {
