@@ -16,17 +16,9 @@
 }
 
 #about {
-    padding-top: 5%;    
+    padding-top: 5%;
     background-image: url("../images/welcome.jpg");
-    min-height: 100vh;
-    padding-bottom: calc(1rem * 1.5);
 }
-
-/* #about {
-    padding-top: calc(24px + (1rem * 1.5));    
-    background-image: url("../images/nasty_fabric.png");
-    min-height: 100vh; 
-} */
 
 #headshot {
     width: 300px;
@@ -50,7 +42,7 @@
 
 }
 
-a.btn {
+a.projectBtn {
     bottom: 5%;
     left: 0;
     width: 100%;
@@ -79,7 +71,7 @@ a.btn {
 }
 
 
-#myBtn {
+#topBtn {
     display: none;
     position: fixed;
     bottom: 80px;
