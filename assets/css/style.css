@@ -1,31 +1,32 @@
 .navbar {
-    /* width: 62.5%; */
-    /* padding-left: 62.5%; */
-    /* padding-left: 62.5%; */
-    /* margin: 0 auto; */
     padding: 0 18.75%;
 }
 
 .content {
     width: 62.5%;
     margin: 0 auto;
-    /* min-height: calc(110vh - 265px); */
+    min-height: calc(110vh - 265px);
 }
 
-#contact, #portfolio {
-    padding-top: 80px;    
-}
-
-
-.box {
+#contact, #portfolio, #about{
+    padding-top: calc(80px + (1rem * 1.5));    
     background-image: url("../images/beanstalk.png");
-    min-height: calc(100vh - 56px);
-}
-
-#portfolio {
     min-height: 100vh;
-
+    padding-bottom: calc(1rem * 1.5);
 }
+
+#about {
+    padding-top: 5%;    
+    background-image: url("../images/welcome.jpg");
+    min-height: 100vh;
+    padding-bottom: calc(1rem * 1.5);
+}
+
+/* #about {
+    padding-top: calc(24px + (1rem * 1.5));    
+    background-image: url("../images/nasty_fabric.png");
+    min-height: 100vh; 
+} */
 
 #headshot {
     width: 300px;
@@ -67,7 +68,7 @@ a.btn {
 
 @media screen and (max-width: 576px) {
     
-    .navbar, .content {
+    .content {
         width: 80%;
     }
     #headshot {
@@ -76,3 +77,13 @@ a.btn {
     }  
 
 }
+
+
+canvas {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 0;
+  }
