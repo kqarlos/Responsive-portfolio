@@ -1,10 +1,10 @@
-# Responsive-portfolio
+# Portfolio
 
-This website contain professional information about me and show some of the projects that I have worked on.
+This website contains my professional informationshows some of the projects that I have worked on.
 
 ## Getting Started
 
-This document contains information on the code writen for the Responsive-Portfolio website. It has explained snippets of code for reference. It also includes links to the live site, the repository on Github and references.
+This application is compatible with the most commonly used web browsers.
 
 ## Site Picture
 
@@ -118,6 +118,7 @@ Navigation Bar code
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
+* [Javascript](https://www.javascript.com/)
 
 ## Deployed Link
 
@@ -137,3 +138,4 @@ Navigation Bar code
 
 * [W3 Schools](https://www.w3schools.com/)
 * [Bootstrap components](https://getbootstrap.com/docs/4.4/components/navbar/)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
