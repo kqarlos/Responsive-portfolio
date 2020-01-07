@@ -21,21 +21,22 @@ $(document).ready(function () {
             });
         } // End if
     });
-});
 
-$("#sendMessage").on("click", function (event) {
+    $("#sendMessage").on("click", function (event) {
+        event.preventDefault();
+        //get gather form information and do some work with it
 
-    event.preventDefault();
+    })
 
-})
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        $("#topBtn").css("display", "block");
-    } else {
-        $("#topBtn").css("display", "none");
+    function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            $("#topBtn").css("display", "block");
+        } else {
+            $("#topBtn").css("display", "none");
+        }
     }
-}
+
+});

@@ -81,3 +81,25 @@ a.projectBtn {
 
   }
   
+
+  canvas {
+    width: 500px;
+    height: 700px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+button {
+    outline :0;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: black;
+    width: 100px;
+    height: 40px;
+    transition: all .1s ease-in-out;
+}
+button:hover {
+    background:  none;
+    border: 3px solid black;
+    color: black;
+}
