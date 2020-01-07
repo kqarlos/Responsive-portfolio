@@ -79,11 +79,13 @@ a.btn {
 }
 
 
-canvas {
-  
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    z-index: 0;
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+
   }
+  
