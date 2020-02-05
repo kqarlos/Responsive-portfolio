@@ -122,7 +122,7 @@ Navigation Bar code
 
 ## Deployed Link
 
-* [See Live Site](https://kqarlos.github.io/Responsive-portfolio/index.html)
+* [See Live Site](https://professional-portfolio2020.herokuapp.com/)
 
 ## Author
 
