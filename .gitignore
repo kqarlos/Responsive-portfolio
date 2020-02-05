@@ -2,6 +2,3 @@ node_modules/
 .vscode
 .idea/
 .DS_Store
-public/contact.html
-public/portfolio.html
-public/index.html
