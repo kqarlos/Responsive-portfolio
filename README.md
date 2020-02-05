@@ -13,7 +13,7 @@ Live Site:
  * Has ticky navigation bar
  * Links to pdf files
 
-![Site](assets/images/fullsite.gif)
+![Site](public/assets/images/fullsite.gif)
 
 
 Responsiveness:
@@ -22,7 +22,7 @@ Responsiveness:
  * back to top button shortens
 
 
-![Site](assets/images/responsive.gif)
+![Site](public/assets/images/responsive.gif)
 
 
 
