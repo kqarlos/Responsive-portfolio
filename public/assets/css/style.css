@@ -1,4 +1,8 @@
-#portfolio, #contact {
+#portfolio {
+    display: none;
+}
+
+#contact {
     display: none;
 }
 
@@ -35,15 +39,14 @@
 }
 
 .headingText {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: x-large;
 }
 
-.footer {
+.page-footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     font-size: small;
-
 }
 
 a.projectBtn {
