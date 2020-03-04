@@ -70,8 +70,9 @@ module.exports = function (app) {
                     projectDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Password Generator",
-                    description: "",
-                    repo: "",
+                    description: "Generates a random password based on user preferences and copies it to the clipboard.",
+                    stack: ["HTML", "CSS", "Javascript", "Bootstrap"],
+                    repo: "https://github.com/kqarlos/password-generator",
                     deployed: "https://kqarlos.github.io/password-generator/"
                 });
                 break;
@@ -80,8 +81,9 @@ module.exports = function (app) {
                     projectDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Day Planner",
-                    description: "",
-                    repo: "",
+                    description: "A planner for day activities that saves information to local storage",
+                    stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
+                    repo: "https://github.com/kqarlos/day-planner",
                     deployed: "https://kqarlos.github.io/day-planner/"
                 });
                 break;
@@ -90,8 +92,9 @@ module.exports = function (app) {
                     projectDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Weather Dashboard",
-                    description: "",
-                    repo: "",
+                    description: "Displays current weather and forecast for a searched city.",
+                    stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
+                    repo: "https://github.com/kqarlos/weather-dashboard",
                     deployed: "https://kqarlos.github.io/weather-dashboard/"
                 });
                 break;
@@ -100,8 +103,9 @@ module.exports = function (app) {
                     projectDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Dinner Party",
-                    description: "",
-                    repo: "",
+                    description: "Application that recommends a dish and a cocktail based on a protein choice",
+                    stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
+                    repo: "https://github.com/kqarlos/dinner-party",
                     deployed: "https://kqarlos.github.io/dinner-party/"
                 });
                 break;
@@ -110,8 +114,9 @@ module.exports = function (app) {
                     projectDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Shopping Buddy",
-                    description: "",
-                    repo: "",
+                    description: "Manage your shopping list on the go",
+                    stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
+                    repo: "https://github.com/kqarlos/shopping-buddy",
                     deployed: "https://shopping-buddy2020.herokuapp.com/"
                 });
                 break;
