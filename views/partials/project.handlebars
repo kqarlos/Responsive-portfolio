@@ -12,7 +12,7 @@
         </div>
 
         <!-- second-seven row / form-->
-        <form class="contentText text-secondary">
+        {{!-- <form class="contentText text-secondary">
             <div class="form-row">
                 <div class="form-group col-12">
                     <label for="name1">Name</label>
@@ -58,7 +58,29 @@
 
 
 
-        </form>
+        </form> --}}
+
+        <div class="row">
+            <div class="col-2">Description</div>
+            <div class="col-10">{{description}}</div>
+        </div>
+        <div class="row">
+            <div class="col-2">Buil with</div>
+            <div class="col-10">{{stack}}</div>
+        </div>
+        <div class="row">
+            <div class="col-2">Github Repo</div>
+            <a class="col-10" href={{repo}} target="_blank">{{repo}}</a>
+        </div>
+        <div class="row">
+            <div class="col-2">Deployed Site</div>
+            <a class="col-10" href={{deployed}} target="_blank">{{deployed}}</a>
+        </div>
+        <div class="row">
+            <img class="card-img col-12 py-1" src={{src}} alt="Code Quiz">
+        </div>
+
+
 
         <!-- end content -->
 
