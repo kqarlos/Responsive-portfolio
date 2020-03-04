@@ -2,9 +2,9 @@
     display: none;
 }
 
-#contact {
+/* #project {
     display: none;
-}
+} */
 
 .navbar {
     padding: 0 18.75%;
@@ -16,7 +16,7 @@
     min-height: calc(110vh - 265px);
 }
 
-#contact, #portfolio, #about{
+#portfolio, #about, #project{
     padding-top: calc(80px + (1rem * 1.5));    
     background-image: url("../images/beanstalk.png");
     min-height: 100vh;
