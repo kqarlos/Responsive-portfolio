@@ -11,55 +11,6 @@
             </div>
         </div>
 
-        <!-- second-seven row / form-->
-        {{!-- <form class="contentText text-secondary">
-            <div class="form-row">
-                <div class="form-group col-12">
-                    <label for="name1">Name</label>
-                    <textarea class="form-control" id="name1" rows="1"></textarea>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-12">
-                    <label for="email1">Email</label>
-                    <textarea class="form-control" id="email1" rows="1"></textarea>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-12">
-                    <label for="message1">Message</label>
-                    <textarea class="form-control" id="message1" rows="7"></textarea>
-
-                </div>
-            </div>
-            <button type="button" class="btn text-white bg-info" data-toggle="modal" data-target="#exampleModal"
-                id="sendMessage">Submit</button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Email sent!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            Thank you for contacting me! I will be in touch with you soon.
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </form> --}}
-
         <div class="row">
             <div class="col-2">Description</div>
             <div class="col-10">{{description}}</div>
@@ -69,15 +20,15 @@
             <div class="col-10">{{stack}}</div>
         </div>
         <div class="row">
-            <div class="col-2">Github Repo</div>
-            <a class="col-10" href={{repo}} target="_blank">{{repo}}</a>
+            <div class="col-2">Links</div>
+            <a class="col-10" style="text-decoration: none;" href={{repo}} target="_blank">{{repo}}</a>
         </div>
         <div class="row">
-            <div class="col-2">Deployed Site</div>
-            <a class="col-10" href={{deployed}} target="_blank">{{deployed}}</a>
+            <div class="col-2"></div>
+            <a class="col-10" style="text-decoration: none;" href={{deployed}} target="_blank">{{deployed}}</a>
         </div>
         <div class="row">
-            <img class="card-img col-12 py-1" src={{src}} alt="Code Quiz">
+            <img class="card-img col-12 mt-3 py-1" src={{src}} alt="Code Quiz">
         </div>
 
 
