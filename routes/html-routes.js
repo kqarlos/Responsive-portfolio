@@ -34,7 +34,7 @@ module.exports = function (app) {
                     stack: ["MySQL", "Express", "Node", "Handlebars", "Sequelize", "Bootstrap", "Charts.js", "Axios"],
                     repo: "https://github.com/kqarlos/election-year",
                     deployed: "https://electionyear2020.herokuapp.com/",
-                    src: "assets/images/election-year.png"
+                    src: "assets/images/election-year-live.gif"
                 });
                 break;
             case 'memoryGame':
@@ -46,7 +46,7 @@ module.exports = function (app) {
                     stack: ["React", "Node", "Bootstrap", "Axios"],
                     repo: "https://github.com/kqarlos/memory-game",
                     deployed: "https://kqarlos.github.io/memory-game/",
-                    src: "assets/images/memory-game.png"
+                    src: "assets/images/memory-game-live.gif"
                 });
                 break;
             case 'noteTaker':
@@ -58,7 +58,7 @@ module.exports = function (app) {
                     stack: ["Node", "Express", "Bootstrap"],
                     repo: "https://github.com/kqarlos/note-taker",
                     deployed: "https://note-taker2020.herokuapp.com/",
-                    src: "assets/images/note-taker.png"
+                    src: "assets/images/note-taker-live.gif"
                 });
                 break;
             case 'googleLibrary':
@@ -70,7 +70,7 @@ module.exports = function (app) {
                     stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
                     repo: "https://github.com/kqarlos/google-library",
                     deployed: "https://google-library-mern.herokuapp.com/",
-                    src: "assets/images/google-library.png"
+                    src: "assets/images/google-library-live.gif"
                 });
                 break;
             case 'passwordGenerator':
@@ -106,7 +106,7 @@ module.exports = function (app) {
                     stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
                     repo: "https://github.com/kqarlos/weather-dashboard",
                     deployed: "https://kqarlos.github.io/weather-dashboard/",
-                    src: "assets/images/weather-dashboard.png"
+                    src: "assets/images/weather-live.gif"
                 });
                 break;
             case 'dinnerParty':
@@ -118,7 +118,7 @@ module.exports = function (app) {
                     stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
                     repo: "https://github.com/kqarlos/dinner-party",
                     deployed: "https://kqarlos.github.io/dinner-party/",
-                    src: "assets/images/dinner-party.png"
+                    src: "assets/images/dinner-party-live.webp"
                 });
                 break;
             case 'shoppingBuddy':
@@ -130,7 +130,7 @@ module.exports = function (app) {
                     stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
                     repo: "https://github.com/kqarlos/shopping-buddy",
                     deployed: "https://shopping-buddy2020.herokuapp.com/",
-                    src: "assets/images/shopping-buddy.png"
+                    src: "assets/images/shopping-buddy.gif"
                 });
                 break;
             default:
