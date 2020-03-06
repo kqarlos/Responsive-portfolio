@@ -19,10 +19,10 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
-                    stack: ["MongoDB", "Express", "React", "Node", "Mongoose", "Materialize", "Axios"],
+                    stack: ["MongoDB", "Express", "React", "Node", "Mongoose", "Materialize", "Axios", "HTML", "CSS", "Javascript"],
                     repo: "https://github.com/kqarlos/artiste-affame",
                     deployed: "https://artiste-affame.herokuapp.com/",
-                    src: ""
+                    src: "assets/images/artiste-live.gif"
                 });
                 break;
             case 'electionYear':
@@ -31,7 +31,7 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Election Year",
                     description: "Full-stack application that allows to create an account and search for their representatives.",
-                    stack: ["MySQL", "Express", "Node", "Handlebars", "Sequelize", "Bootstrap", "Charts.js", "Axios"],
+                    stack: ["MySQL", "Express", "Node", "Handlebars", "Sequelize", "Bootstrap", "Charts.js", "Axios", "HMTL", "CSS", "Javascript"],
                     repo: "https://github.com/kqarlos/election-year",
                     deployed: "https://electionyear2020.herokuapp.com/",
                     src: "assets/images/election-year-live.gif"
@@ -43,7 +43,7 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Memory Game",
                     description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
-                    stack: ["React", "Node", "Bootstrap", "Axios"],
+                    stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
                     repo: "https://github.com/kqarlos/memory-game",
                     deployed: "https://kqarlos.github.io/memory-game/",
                     src: "assets/images/memory-game-live.gif"
