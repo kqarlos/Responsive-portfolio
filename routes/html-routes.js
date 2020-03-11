@@ -20,6 +20,7 @@ module.exports = function (app) {
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
                     stack: ["MongoDB", "Express", "React", "Node", "Mongoose", "Materialize", "Axios", "HTML", "CSS", "Javascript"],
+                    stackSnippet: [],
                     repo: "https://github.com/kqarlos/artiste-affame",
                     deployed: "https://artiste-affame.herokuapp.com/",
                     src: "assets/images/artiste-live.gif"
