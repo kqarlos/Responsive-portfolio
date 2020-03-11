@@ -12,21 +12,31 @@
         </div>
 
         <div class="row">
-            <div class="col-2">Description</div>
-            <div class="col-10">{{description}}</div>
+            <div class="col-12 h4">Description</div>
+            <div class="col-12">{{description}}</div>
         </div>
         <div class="row">
-            <div class="col-2">Buil with</div>
-            <div class="col-10">{{stack}}</div>
+            <div class="col-12 h4">Buil with</div>
+            <div class="col-12">
+                <div class="row">
+                    {{#each stack}}
+                    <li class="col-3">{{this}}</li>
+                    {{!-- {{stack}} --}}
+                    {{/each}}
+                </div>
+
+            </div>
         </div>
         <div class="row">
-            <div class="col-2">Links</div>
-            <a class="col-10" style="text-decoration: none;" href={{repo}} target="_blank">{{repo}}</a>
+            <div class="col-12 h4">Links</div>
+            <a class="col-12" style="text-decoration: none;" href={{repo}} target="_blank">{{repo}}</a>
+            <a class="col-12" style="text-decoration: none;" href={{deployed}} target="_blank">{{deployed}}</a>
+
         </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <a class="col-10" style="text-decoration: none;" href={{deployed}} target="_blank">{{deployed}}</a>
-        </div>
+        {{!-- <div class="row">
+            <div class="col-lg-2"></div>
+            <a class="col-lg-10" style="text-decoration: none;" href={{deployed}} target="_blank">{{deployed}}</a>
+        </div> --}}
         <div class="row">
             <img class="col-12 mt-3 py-1" src={{src}} alt="Code Quiz">
         </div>
