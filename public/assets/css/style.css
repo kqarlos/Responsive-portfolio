@@ -81,6 +81,12 @@ a.projectBtn {
 
   }
 
+
+.footerLink{
+    color: white;
+    border-radius: 30%;
+}
+
 @media screen and (max-width: 576px) {
     
     .content {
