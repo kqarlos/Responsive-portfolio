@@ -17,24 +17,36 @@
         </div>
         <div class="row">
             <div class="col-12 h4 my-2">Buil with</div>
+
             <div class="col-12">
+                <div class="row mb-2">
+                    <div class="col-12">
+                        <ul class="list-group list-group-horizontal-lg justify-content-md-center">
+                            {{#each stack}}
+                            <li class="list-group-item">{{this}}</li>
+                            {{/each}}
+
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="mx-4">
+
                 <div class="row">
 
 
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="list-group" id="list-tab" role="tablist">
 
-                            {{#each stack}}
+                            {{#each stack2}}
 
                             {{#is @index 0}}
-
                             <a class="list-group-item list-group-item-action active" id={{this}} data-toggle="list"
                                 href="#list-{{this}}" role="tab" aria-controls="{{this}}">{{this}}</a>
                             {{/is}}
 
 
                             {{#isnt @index 0}}
-
                             <a class="list-group-item list-group-item-action" id={{this}} data-toggle="list"
                                 href="#list-{{this}}" role="tab" aria-controls="{{this}}">{{this}}</a>
                             {{/isnt}}
@@ -44,27 +56,45 @@
                         </div>
                     </div>
 
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
 
-                            {{#each stack}}
+                    {{!-- <div class="col-4">
+                        <div class="list-group list-group-horizontal-lg" id="list-tab" role="tablist">
 
+                            {{#each stack2}}
 
                             {{#is @index 0}}
-
-                            <img class="w-100 tab-pane fade show active" id="list-{{this}}" role="tabpanel"
-                                aria-labelledby={{this}} src={{../src}} alt="Code Snippet">
+                            <a class="list-group-item list-group-item-action active" id={{this}} data-toggle="list"
+                                href="#list-{{this}}" role="tab" aria-controls="{{this}}">{{this}}</a>
                             {{/is}}
 
 
                             {{#isnt @index 0}}
-
-                            <img class="w-100 tab-pane fade" id="list-{{this}}" role="tabpanel" aria-labelledby={{this}}
-                                src={{../src}} alt="Code Snippet">
+                            <a class="list-group-item list-group-item-action" id={{this}} data-toggle="list"
+                                href="#list-{{this}}" role="tab" aria-controls="{{this}}">{{this}}</a>
                             {{/isnt}}
 
                             {{/each}}
 
+                        </div>
+                    </div> --}}
+
+
+                    <div class="col-md-8">
+                        <div class="tab-content" id="nav-tabContent">
+
+                            {{#each stack2}}
+
+                            {{#is @index 0}}
+                            <img class="tab-pane fade show active codeSnippet" id="list-{{this}}" role="tabpanel"
+                                aria-labelledby={{this}} src="{{../snippetLink}}{{this}}.jpg" alt="Code Snippet">
+                            {{/is}}
+
+                            {{#isnt @index 0}}
+                            <img class=" tab-pane fade codeSnippet" id="list-{{this}}" role="tabpanel" aria-labelledby={{this}}
+                                src="{{../snippetLink}}{{this}}.jpg" alt="Code Snippet">
+                            {{/isnt}}
+
+                            {{/each}}
 
                         </div>
                     </div>

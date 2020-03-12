@@ -81,6 +81,14 @@ a.projectBtn {
 
   }
 
+.codeSnippet {
+    max-width: 100%;
+    /* display: inline-block; */
+    /* object-fit: cover; */
+    /* overflow:  hidden; */
+
+}
+
 
 .footerLink{
     color: white;

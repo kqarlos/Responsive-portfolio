@@ -19,8 +19,9 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
-                    stack: ["MongoDB", "Express", "React", "Node", "Mongoose", "Materialize", "Axios", "HTML", "CSS", "Javascript"],
-                    stackSnippet: [],
+                    stack: ["React", "Node", "HTML", "CSS", "Javascript"],
+                    stack2: ["MongoDB", "Mongoose", "Express", "Axios", "Materialize"],
+                    snippetLink: "assets/images/artiste/",
                     repo: "https://github.com/kqarlos/artiste-affame",
                     deployed: "https://artiste-affame.herokuapp.com/",
                     src: "assets/images/artiste-live.gif"
@@ -32,7 +33,9 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Election Year",
                     description: "Full-stack application that allows to create an account and search for their representatives.",
-                    stack: ["MySQL", "Express", "Node", "Handlebars", "Sequelize", "Bootstrap", "Charts.js", "Axios", "HMTL", "CSS", "Javascript"],
+                    stack: ["MySQL", "Express", "Node", "Handlebars", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
+                    stack2: ["Sequelize", "Charts"],
+                    snippetLink: "assets/images/election/",
                     repo: "https://github.com/kqarlos/election-year",
                     deployed: "https://electionyear2020.herokuapp.com/",
                     src: "assets/images/election-year-live.gif"
