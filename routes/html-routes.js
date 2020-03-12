@@ -24,7 +24,7 @@ module.exports = function (app) {
                     snippetLink: "assets/images/artiste/",
                     repo: "https://github.com/kqarlos/artiste-affame",
                     deployed: "https://artiste-affame.herokuapp.com/",
-                    src: "assets/images/artiste-live.gif"
+                    src: "assets/images/artiste/artiste-live.gif"
                 });
                 break;
             case 'electionYear':
@@ -33,12 +33,12 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Election Year",
                     description: "Full-stack application that allows to create an account and search for their representatives.",
-                    stack: ["MySQL", "Express", "Node", "Handlebars", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
-                    stack2: ["Sequelize", "Charts"],
+                    stack: ["MySQL", "Express", "Node", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
+                    stack2: ["Sequelize", "Handlebars", "Charts"],
                     snippetLink: "assets/images/election/",
                     repo: "https://github.com/kqarlos/election-year",
                     deployed: "https://electionyear2020.herokuapp.com/",
-                    src: "assets/images/election-year-live.gif"
+                    src: "assets/images/election/election-year-live.gif"
                 });
                 break;
             case 'memoryGame':
@@ -48,9 +48,11 @@ module.exports = function (app) {
                     name: "Memory Game",
                     description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
                     stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
+                    stack2: ["React-Routing", "React-State"],
+                    snippetLink: "assets/images/memory/",
                     repo: "https://github.com/kqarlos/memory-game",
                     deployed: "https://kqarlos.github.io/memory-game/",
-                    src: "assets/images/memory-game-live.gif"
+                    src: "assets/images/memory/memory-game-live.gif"
                 });
                 break;
             case 'noteTaker':
@@ -59,10 +61,12 @@ module.exports = function (app) {
                     aboutDisplay: 'none',
                     name: "Note Taker",
                     description: "Real-time note taking application. Take notes, update them, and delete them with this note-taker.",
-                    stack: ["Node", "Express", "Bootstrap"],
+                    stack: ["Node", "Express", "Bootstrap", "HTML", "CSS"],
+                    stack2: ["Javascript"],
+                    snippetLink: "assets/images/note/",
                     repo: "https://github.com/kqarlos/note-taker",
                     deployed: "https://note-taker2020.herokuapp.com/",
-                    src: "assets/images/note-taker-live.gif"
+                    src: "assets/images/note/note-taker-live.gif"
                 });
                 break;
             case 'googleLibrary':
@@ -72,9 +76,11 @@ module.exports = function (app) {
                     name: "Google Library",
                     description: "Search through Google Books API and keep a list of your favorite books.",
                     stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
+                    stack2: ["React-Reducer"],
+                    snippetLink: "assets/images/google/",
                     repo: "https://github.com/kqarlos/google-library",
                     deployed: "https://google-library-mern.herokuapp.com/",
-                    src: "assets/images/google-library-live.gif"
+                    src: "assets/images/google/google-library-live.gif"
                 });
                 break;
             case 'passwordGenerator':
