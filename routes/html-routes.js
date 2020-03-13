@@ -128,7 +128,7 @@ module.exports = function (app) {
                     stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
                     repo: "https://github.com/kqarlos/dinner-party",
                     deployed: "https://kqarlos.github.io/dinner-party/",
-                    src: "assets/images/dinner-party-live.webp"
+                    src: "assets/images/dinner-party-live.gif"
                 });
                 break;
             case 'shoppingBuddy':
