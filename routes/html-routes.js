@@ -140,7 +140,7 @@ module.exports = function (app) {
                     stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
                     repo: "https://github.com/kqarlos/shopping-buddy",
                     deployed: "https://shopping-buddy2020.herokuapp.com/",
-                    src: "assets/images/shopping-buddy.gif"
+                    src: "assets/images//shopping/shopping-buddy.gif"
                 });
                 break;
             default:
