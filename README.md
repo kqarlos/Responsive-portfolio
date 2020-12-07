@@ -165,7 +165,7 @@ Navigation Bar code
     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
     <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
     <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
-    <a href="https://momentjs.com/docs/"><img src="https://img.shields.io/badge/-Handlebars-orange?style=for-the-badge" alt="Handlebars" /></a>
+    <a href="https://handlebarsjs.com/"><img src="https://img.shields.io/badge/-Handlebars-orange?style=for-the-badge" alt="Handlebars" /></a>
     <a href="https://jquery.com/"><img src="https://img.shields.io/badge/-JQuery-blue?style=for-the-badge" alt="JQuery" /></a>
 </p>
 
