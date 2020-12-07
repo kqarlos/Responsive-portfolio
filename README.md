@@ -19,13 +19,30 @@
 </p>
 
 
+## Description
+
 This website contains my professional informationshows some of the projects that I have worked on.
 
-## Getting Started
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+    * [Screenshots](#screenshots)
+    * [Snippets](#snippets)
+* [Credits](#credits)
+* [License](#license)
+
+## Installation
 
 This application is compatible with the most commonly used web browsers.
 
-## Site Picture
+<p align="center">
+    <a href="https://professional-portfolio2020.herokuapp.com/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
+</p>
+
+## Usage
+
+### Screenshots
 
 Live Site:
  * Uses smooth scrolling
@@ -45,7 +62,7 @@ Responsiveness:
 
 
 
-## Code Snippets
+### Snippets
 
 Portfolio Row code
 
@@ -132,29 +149,28 @@ Navigation Bar code
 
 * This shows the code used to create the navigation bar using a Bootstrap Navbar. In addition to formatting the objects through Bootstrap's styling, I can also add my own css styling as is shown. For example, &lt;a class="nav-link contentText text-white"&gt; uses Bootstrap styling like _text-white_ which adjust the color of the text. It also uses my own styling _contentText_ which tells it the font type and spacing between lines for the text in the list. What's different about this navigation bar is that it has links to diffferent elements within the DOM. In addition, it has links to two pdf files that open in a separate tab.
 
-## Built With
+## Credits 
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
-* [Javascript](https://www.javascript.com/)
+### Author
 
-## Deployed Link
+- 💼 Carlos Toledo: [portfolio](https://professional-portfolio2020.herokuapp.com/)
+- :octocat: Github: [kqarlos](https://www.github.com/kqarlos)
+- LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/carlos-toledo415/)
 
-* [See Live Site](https://professional-portfolio2020.herokuapp.com/)
+### Built With
 
-## Author
+</br>
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/-Bootstrap-blueviolet?style=for-the-badge" alt="Bootstrap" /></a>
+    <a href="https://momentjs.com/docs/"><img src="https://img.shields.io/badge/-Handlebars-orange?style=for-the-badge" alt="Handlebars" /></a>
+    <a href="https://jquery.com/"><img src="https://img.shields.io/badge/-JQuery-blue?style=for-the-badge" alt="JQuery" /></a>
+</p>
+## License
 
-* **Carlos Toledo** 
-
-## Links
-- [Link to Responsive Portfolio Site](https://github.com/kqarlos/responsive-portfolio)
-- [Link to Github](https://www.github.com/kqarlos)
-- [Link to LinkedIn](https://www.linkedin.com/in/carlos-toledo415/)
-
-
-## Acknowledgments
-
-* [W3 Schools](https://www.w3schools.com/)
-* [Bootstrap components](https://getbootstrap.com/docs/4.4/components/navbar/)
-* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+</br>
+<p align="center">
+    <img align="center" src="https://img.shields.io/github/license/kqarlos/professional-portfolio?style=for-the-badge" alt="MIT license" />
+</p>
