@@ -15,7 +15,7 @@ module.exports = function (app) {
             case 'artiste':
                 res.render('index', {
                     projectDisplay: 'block',
-                    portfolioDisplay: 'block',
+                    // portfolioDisplay: 'block',
                     aboutDisplay: 'none',
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
