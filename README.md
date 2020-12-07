@@ -1,4 +1,23 @@
-# Portfolio
+# Portfolio 💼
+
+</br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/kqarlos/professional-portfolio?style=for-the-badge" alt="Languages" />
+    <img src="https://img.shields.io/github/languages/top/kqarlos/professional-portfolio?style=for-the-badge" alt="Top Language" />
+    <img src="https://img.shields.io/github/languages/code-size/kqarlos/professional-portfolio?style=for-the-badge" alt="Code Size" />
+    <img src="https://img.shields.io/github/repo-size/kqarlos/professional-portfolio?style=for-the-badge" alt="Repo Size" />   
+    <img src="https://img.shields.io/tokei/lines/github/kqarlos/professional-portfolio?style=for-the-badge" alt="Total Lines" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/axios?style=for-the-badge" alt="Axios Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/express?style=for-the-badge" alt="Express Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/express-handlebars?style=for-the-badge" alt="Express- handlebars Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/mysql2?style=for-the-badge" alt="Mysql2 Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/sequelize?style=for-the-badge" alt="Sequelize Version" />
+    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/professional-portfolio/handlebars-helpers?style=for-the-badge" alt="Handlebars Helpers Version" />
+    <img src="https://img.shields.io/github/last-commit/kqarlos/professional-portfolio?style=for-the-badge" alt="Last Commit" />  
+    <img src="https://img.shields.io/github/issues/kqarlos/professional-portfolio?style=for-the-badge" alt="Issues" />  
+    <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
+</p>
+
 
 This website contains my professional informationshows some of the projects that I have worked on.
 
@@ -10,7 +29,7 @@ This application is compatible with the most commonly used web browsers.
 
 Live Site:
  * Uses smooth scrolling
- * Has ticky navigation bar
+ * Has sticky navigation bar
  * Links to pdf files
 
 ![Site](public/assets/images/fullsite.gif)
