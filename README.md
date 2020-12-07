@@ -168,6 +168,7 @@ Navigation Bar code
     <a href="https://momentjs.com/docs/"><img src="https://img.shields.io/badge/-Handlebars-orange?style=for-the-badge" alt="Handlebars" /></a>
     <a href="https://jquery.com/"><img src="https://img.shields.io/badge/-JQuery-blue?style=for-the-badge" alt="JQuery" /></a>
 </p>
+
 ## License
 
 </br>
