@@ -1,16 +1,16 @@
-var express = require("express");
+const express = require("express");
 // var db = require("./models");
 
 var PORT = process.env.PORT || 8080;
 
-var app = express();
+const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //Handlebars
-var handlebars = require("express-handlebars");
+const handlebars = require("express-handlebars");
 const hbshelpers = require("handlebars-helpers");
 const multihelpers = hbshelpers();
 
