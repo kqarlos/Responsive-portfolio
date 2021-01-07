@@ -47,5 +47,12 @@ $(document).ready(function () {
         }
     }
 
+
+    // Takes user to project info
+    if ($("#project").css("display") === "block") {
+        let project = $("#project").data("project");
+        window.location = `/${project}#project`;
+    }
+
 });
 

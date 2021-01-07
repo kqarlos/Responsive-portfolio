@@ -15,8 +15,7 @@ module.exports = function (app) {
             case 'artiste':
                 res.render('index', {
                     projectDisplay: 'block',
-                    // portfolioDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
                     stack: ["React", "Node", "HTML", "CSS", "Javascript"],
@@ -30,7 +29,7 @@ module.exports = function (app) {
             case 'electionYear':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Election Year",
                     description: "Full-stack application that allows to create an account and search for their representatives.",
                     stack: ["MySQL", "Express", "Node", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
@@ -44,7 +43,7 @@ module.exports = function (app) {
             case 'memoryGame':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Memory Game",
                     description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
                     stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
@@ -58,7 +57,7 @@ module.exports = function (app) {
             case 'noteTaker':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Note Taker",
                     description: "Real-time note taking application. Take notes, update them, and delete them with this note-taker.",
                     stack: ["Node", "Express", "Bootstrap", "HTML", "CSS"],
@@ -72,7 +71,7 @@ module.exports = function (app) {
             case 'googleLibrary':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Google Library",
                     description: "Search through Google Books API and keep a list of your favorite books.",
                     stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
@@ -86,7 +85,7 @@ module.exports = function (app) {
             case 'passwordGenerator':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Password Generator",
                     description: "Generates a random password based on user preferences and copies it to the clipboard.",
                     stack: ["HTML", "CSS", "Javascript", "Bootstrap"],
@@ -98,7 +97,7 @@ module.exports = function (app) {
             case 'dayPlanner':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Day Planner",
                     description: "A planner for day activities that saves information to local storage",
                     stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
@@ -110,7 +109,7 @@ module.exports = function (app) {
             case 'weatherDashboard':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Weather Dashboard",
                     description: "Displays current weather and forecast for a searched city.",
                     stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
@@ -122,7 +121,7 @@ module.exports = function (app) {
             case 'dinnerParty':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Dinner Party",
                     description: "Application that recommends a dish and a cocktail based on a protein choice",
                     stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
@@ -134,7 +133,7 @@ module.exports = function (app) {
             case 'shoppingBuddy':
                 res.render('index', {
                     projectDisplay: 'block',
-                    aboutDisplay: 'none',
+                    project: req.params.project,
                     name: "Shopping Buddy",
                     description: "Manage your shopping list on the go",
                     stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
