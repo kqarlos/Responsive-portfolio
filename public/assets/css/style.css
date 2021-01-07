@@ -56,11 +56,14 @@
     font-size: small;
 }
 
-/* a.projectBtn {
-    bottom: 5%;
-    left: 0;
-    width: 100%;
-} */
+.projectCard {
+    padding: 0px;
+}
+
+.rightCorners {
+    border-radius: 0px;
+    border: 0px;
+}
 
 .card {
     height: 100%;
