@@ -15,6 +15,7 @@ module.exports = function (app) {
             case 'artiste':
                 res.render('index', {
                     projectDisplay: 'block',
+                    // aboutDisplay: 'none',
                     project: req.params.project,
                     name: "Artiste Affame",
                     description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
@@ -143,7 +144,10 @@ module.exports = function (app) {
                 });
                 break;
             default:
-                res.render("index", { projectDisplay: 'none', aboutDisplay: 'block' });
+                res.render("index", {
+                    projectDisplay: 'none',
+                    aboutDisplay: 'block'
+                });
 
         }
     });

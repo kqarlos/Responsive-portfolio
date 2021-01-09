@@ -51,7 +51,17 @@ $(document).ready(function () {
     // Takes user to project info
     if ($("#project").css("display") === "block") {
         let project = $("#project").data("project");
-        window.location = `/${project}#project`;
+        window.location = `/${project}#portfolio`;
+        var a = $("<a>");
+        a.attr("href", "#project");
+        a.attr("id", "link");
+        console.log(a);
+        console.log($("#link"));
+        document.getElementById('link').click();
+        $(document).on('click','#approve',function(){
+            console.log("CLICKED");
+        });
+        // $('#link').trigger('click');
     }
 
 });
