@@ -6,7 +6,9 @@ $(document).ready(function () {
     // });
 
     // Add smooth scrolling to all links
-    $(".smoothLink").on('click', function (event) {
+    // $(document).on('click','#approve',function(){
+
+    $(document).on('click', '.smoothLink', function (event) {
         $("#portfolio").css("display", "block");
         $("#about").css("display", "block");
         // $("#project").css("display", "block");
@@ -48,20 +50,16 @@ $(document).ready(function () {
     }
 
 
-    // Takes user to project info
+    // Takes user to project info by refreshing the page to the portfolio and scrolling to the project info.
     if ($("#project").css("display") === "block") {
         let project = $("#project").data("project");
         window.location = `/${project}#portfolio`;
         var a = $("<a>");
         a.attr("href", "#project");
         a.attr("id", "link");
-        console.log(a);
-        console.log($("#link"));
+        a.addClass("smoothLink");
+        $("#project").append(a);
         document.getElementById('link').click();
-        $(document).on('click','#approve',function(){
-            console.log("CLICKED");
-        });
-        // $('#link').trigger('click');
     }
 
 });
