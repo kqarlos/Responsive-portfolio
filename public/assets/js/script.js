@@ -53,13 +53,13 @@ $(document).ready(function () {
     // Takes user to project info by refreshing the page to the portfolio and scrolling to the project info.
     if ($("#project").css("display") === "block") {
         let project = $("#project").data("project");
-        window.location = `/${project}#portfolio`;
-        var a = $("<a>");
-        a.attr("href", "#project");
-        a.attr("id", "link");
-        a.addClass("smoothLink");
-        $("#project").append(a);
-        document.getElementById('link').click();
+        window.location = `/${project}#project`;
+        // var a = $("<a>");
+        // a.attr("href", "#project");
+        // a.attr("id", "link");
+        // a.addClass("smoothLink");
+        // $("#project").append(a);
+        // document.getElementById('link').click();
     }
 
 });
