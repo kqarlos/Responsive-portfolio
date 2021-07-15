@@ -1,5 +1,9 @@
 # Portfolio 💼
 
+## NEWEST VERSION 👇👇👇
+## 💼 [Portfolio](https://kqarlos.github.io/)
+## :octocat: [Repo](https://github.com/kqarlos/kqarlos.github.io)
+
 </br>
 <p align="center">
     <img src="https://img.shields.io/github/languages/count/kqarlos/professional-portfolio?style=for-the-badge" alt="Languages" />
