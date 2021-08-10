@@ -1,8 +1,10 @@
-# Portfolio 💼
+# NEWEST VERSION 👇👇👇
+### 💼 [Portfolio Version 2.0](https://kqarlos.github.io/)
+### :octocat: [Repo](https://github.com/kqarlos/kqarlos.github.io)
 
-## NEWEST VERSION 👇👇👇
-## 💼 [Portfolio Version 2.0](https://kqarlos.github.io/)
-## :octocat: [Repo](https://github.com/kqarlos/kqarlos.github.io)
+</br>
+
+# Portfolio Version 1.0 💼
 
 </br>
 <p align="center">
