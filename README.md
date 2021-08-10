@@ -1,7 +1,7 @@
 # Portfolio 💼
 
 ## NEWEST VERSION 👇👇👇
-## 💼 [Portfolio](https://kqarlos.github.io/)
+## 💼 [Portfolio Version 2.0](https://kqarlos.github.io/)
 ## :octocat: [Repo](https://github.com/kqarlos/kqarlos.github.io)
 
 </br>
@@ -25,7 +25,7 @@
 
 ## Description
 
-This website contains my professional informationshows some of the projects that I have worked on.
+This website contains Version 1.0 my professional information and shows some of the projects that I have worked on.
 
 ## Table of Contents
 
